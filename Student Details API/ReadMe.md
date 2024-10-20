@@ -93,7 +93,7 @@ Student id - 1  -> Student (Eswar)
 ##### Get Particular Student -> /api/students/{id}
 ##### For Example /api/students/3
 
-Student id - 1  -> Student (Prajith)
+Student id - 3  -> Student (Prajith)
 
 ```json
 {
