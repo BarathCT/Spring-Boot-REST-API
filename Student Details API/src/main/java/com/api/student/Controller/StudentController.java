@@ -45,7 +45,7 @@ public class StudentController {
         return ResponseEntity.noContent().build();
     }
 
-    @DeleteMapping("/students                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                /delete")
+    @DeleteMapping("/students/delete")
     public ResponseEntity<Void> deleteAllStudent(){
         studentService.deleteAllStudent();
         return ResponseEntity.noContent().build();
